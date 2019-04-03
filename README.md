@@ -1,9 +1,9 @@
 # GAQL Builder [![Version][version-badge]][version-link] ![MIT License][license-badge]
 
-Generating GAQL (Google Ads Query Language) tool, it is not official library.
-Would you like to build GAQL string more easier, you can use this tool, but it would not be validated entirely for all of posible pairing.
+Generating GAQL (Google Ads Query Language) tool, this is ***not official library***.
+If you want to build GAQL string much easier, you can use this tool, but it would not be validated entirely for all of posible combinations.
 
-Please follow [official documentation](https://developers.google.com/google-ads/api/docs/query/overview).
+Please follow the building rule via [official documentation](https://developers.google.com/google-ads/api/docs/query/overview).
 
 # Requirements
 
@@ -13,7 +13,7 @@ Please follow [official documentation](https://developers.google.com/google-ads/
 # Installation
 
 ```bash
-  $ pip instal gaql-builder
+  $ pip3 install gaql-builder
 ```
 
 # Usage
@@ -57,6 +57,6 @@ also, you can use `add_where` function to add condition.
 
 [MIT](https://github.com/yo8568/gaql-builder/blob/master/LICENSE)
 
-[version-badge]:   https://img.shields.io/badge/version-1.0.0-brightgreen.svg
+[version-badge]:   https://img.shields.io/badge/version-1-brightgreen.svg
 [version-link]:    https://pypi.python.org/pypi/gaql-builder
 [license-badge]:   https://img.shields.io/github/license/pythonml/douyin_image.svg
