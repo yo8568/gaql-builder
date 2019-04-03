@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - 3.5.3
+
+install:
+  - pip3 install -r requirements.txt
+
+notifications:
+  email:
+    recipients:
+      - yo8568@gmail.com
+    on_success: always
+    on_failure: always
+
+script: python3 -m pytest --cov=.
