@@ -1,11 +1,5 @@
 from setuptools import setup, find_packages
 from codecs import open
-from os import path
-
-here = path.abspath(path.dirname(__file__))
-
-with open(path.join(here, 'README.md'), mode='r', encoding='utf-8') as f:
-    long_description = f.read()
 
 tests_require = [
     'pytest >= 4.4'
@@ -13,11 +7,11 @@ tests_require = [
 
 setup(
     name="gaql-builder",
-    version="1.0.0-beta",
+    version="1.0.1",
     author="Shao-Tung Change",
     author_email="yo8568@gmail.com",
     description="Generating GAQL tool",
-    long_description=long_description,
+    long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/yo8568/gaql-builder",
     packages=find_packages(exclude=['tests', 'test_*']),
