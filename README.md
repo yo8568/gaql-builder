@@ -16,6 +16,22 @@ Please follow the building rule via [official documentation](https://developers.
   $ pip3 install gaql-builder
 ```
 
+# Project Structure
+
+```
+.
+├── gaql_builder/                 # Core folder
+│   ├── __init__.py
+│   └── main.py                   # Core library code
+├── tests/                        # Test cases
+├── .travis.yml                   # CI configuration
+├── setup.py                      # Setup script
+├── setup.cfg                     # Setup configuration
+├── __init__.py                   # Root init
+├── requirements.txt              # Install packages text file
+└── README.md                     # Read-me file
+```
+
 # Usage
 
 If you want to generate the following query string,
