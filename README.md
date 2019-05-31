@@ -5,18 +5,18 @@ If you want to build GAQL string much easier, you can use this tool, but it woul
 
 Please follow the building rule via [official documentation](https://developers.google.com/google-ads/api/docs/query/overview).
 
-# Requirements
+## Requirements
 
 - Python 2.7.13+ / 3.5.3+
 - [pip](https://pip.pypa.io/en/stable/installing/)
 
-# Installation
+## Installation
 
 ```bash
   $ pip3 install gaql-builder
 ```
 
-# Project Structure
+## Project Structure
 
 ```
 .
@@ -32,7 +32,7 @@ Please follow the building rule via [official documentation](https://developers.
 └── README.md                     # Read-me file
 ```
 
-# Usage
+## Usage
 
 If you want to generate the following query string,
 

@@ -7,7 +7,7 @@ tests_require = [
 
 setup(
     name="gaql-builder",
-    version="1.0.1",
+    version="1.0.2",
     author="Shao-Tung Change",
     author_email="yo8568@gmail.com",
     description="Generating GAQL tool",
